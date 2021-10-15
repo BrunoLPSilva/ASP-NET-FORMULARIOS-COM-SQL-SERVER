@@ -1,0 +1,26 @@
+﻿
+<div class="jumbotron">
+    <h3>Nova Pagina</h3>
+    <div>
+        <a href="/paginas" class="btn brn-default">Voltar</a>
+    </div>
+
+    <form action="/paginas/criar" method="post">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome">
+        </div>
+        <div class="form-group">
+            <label for="data">Data:</label>
+            <input type="datetime" class="form-control" id="data" name="data">
+        </div>
+        <div class="form-group">
+            <label for="conteudo">Conteudo:</label>
+            <textarea id="conteudo"  name="Conteudo" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Salvar</button>
+    </form>
+    
+</div>
+
+@*//FORMULARIO DE ARQUIVO PARA O BANCO DE DADOS.*@
