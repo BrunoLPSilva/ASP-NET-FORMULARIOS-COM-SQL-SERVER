@@ -1,0 +1,18 @@
+Database SQL Server com autenticação via windows.
+
+Alterar no arquivo Web.Config 
+Keys
+Alterar o "Source", para sua onexão local.
+
+
+Script Database:
+
+SELECT TOP (1000) [Id]
+      ,[Nome]
+      ,[Conteudo]
+      ,[Data]
+  FROM [Bruno].[dbo].[paginas]
+  
+  
+  Duvidas:
+  https://www.linkedin.com/in/bruno-silva-a204b11a1/
